@@ -1,0 +1,8 @@
+5d775aab80df9bfbef329dab13c9cdcc	\client\mariage-cl1.vmdk
+e5379da6eb764368f8a1b6b3c4edda99	\dns-server\mariage-cl1.vmdk
+7421fecd461461ce8dc2540230a0e010	\mail-server\mariage-cl1.vmdk
+4cfbad202c8ac59edd736f9a2c5898a2	\mail-server2\mariage-cl2.vmdk
+433dd47e5b6035aa9ee9801c6ab22940	\nas1\mariage-cl1.vmdk
+ea98a2ae52e3f3d4ce055fc163367442	\nas1\nas1-iscsiDisk.vmdk
+07bb3c221e5932950be3354961aa944b	\nas2\mariage-cl1.vmdk
+8acc8440c841605c27e8eda0e720ee12	\nas2\nas2-iscsiDisk.vmdk

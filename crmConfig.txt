@@ -1,0 +1,3 @@
+primitive postfix-ip ocf:heartbeat:IPaddr2 params ip="192.168.152.200"
+primitive postfix_pf ocf:heartbeat:postfix op monitor interval="60s" timeout="20s" depth="0"
+group postfix postfix-ip postfix_pf 

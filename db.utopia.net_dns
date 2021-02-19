@@ -1,0 +1,17 @@
+$TTL	86400
+@		IN	SOA	utopia.net. root.utopia.net. (
+				     10		; Serial
+				 604800		; Refresh
+				  86400		; Retry
+				2419200		; Expire
+				  86400 )	; Negative Cache TTL
+;
+@		IN	NS	ns.
+@		IN	MX 10	mail-server1.utopia.net.
+@		IN	MX 10	mail-server2.utopia.net.
+san		IN 	A	172.17.2.25
+mail 		IN	A	172.17.2.15
+imap		IN	CNAME	mail	
+pop3		IN	CNAME	mail
+smtp		IN	CNAME	mail
+
